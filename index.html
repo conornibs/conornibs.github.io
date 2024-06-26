@@ -25,26 +25,32 @@
 
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Digital Transformation Project 1</h3>
-                <p>Implemented a cloud-based CRM system that reduced customer response times by 40%.</p>
-            </li>
-            <li>
-                <h3>Digital Transformation Project 2</h3>
-                <p>Developed an automated invoice processing solution that increased processing speed by 60%.</p>
-            </li>
-        </ul>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3>Digital Transformation Project 1</h3>
+                    <p>Implemented a cloud-based CRM system that reduced customer response times by 40%.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Digital Transformation Project 2</h3>
+                    <p>Developed an automated invoice processing solution that increased processing speed by 60%.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: cnibert@outlook.com</p>
+        <p>Email: <a href="mailto:cnibert@outlook.com">cnibert@outlook.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/conor-nibert/">https://www.linkedin.com/in/conor-nibert/</a></p>
     </section>
 
     <footer>
         <p>&copy; 2024 Conor Nibert. All rights reserved.</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
